@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<head>
+	<title>Home</title>
+
+
+
+        <style type="text/css">
+            *{
+		margin: 0px;
+		padding: 0px;
+	}
+	.head{
+		width: 100%;
+		height:100px;
+		background-color: black;
+		position: static;
+	}
+	.head ul{
+		/*text-align: right;*/
+		margin-right: 80px;
+		/*margin-bottom: 40px;*/
+
+	}
+	.head ul li{
+		width: 180px;
+		height: 100px;
+		text-align: center;
+		display: inline-block;
+		font-size: 24pt;
+		color:white;
+	}
+	.head ul li:hover{
+		color: green;
+
+	}
+
+
+	.about h1{
+
+		/*font-family: "Times New Roman Georgia";*/
+		text-align:center;
+		color:green;
+		font-size: 24pt
+	}
+	.about h4{
+		font-family: "Arial Verdana";
+		text-align: center;
+		font-size: 20pt;
+
+	}
+	.about p{
+
+		font-family: "Poppins", Sans-serif;
+		font-size:18pt;
+		margin-left: 70px;
+		font-weight:400;
+		color: #333333;
+
+	}
+	.a{
+		margin-left: 30px;
+	}
+	.b{
+		margin-left: 18px;
+	}
+	.c{
+		margin-left: 33px;
+	}
+	.d{
+		margin-left: 35%;
+	}
+	section{
+		width: 100%;
+		height: 350px;
+
+	}
+	.img1{
+			height: 400px;
+	}
+	.new{
+		text-align: center;
+		width: 100%;
+
+	}
+	.new li{
+
+		text-align: center;
+		display: inline-block;
+		margin: 30px;
+
+
+	}
+	.card{
+		height: 300px;
+
+	}
+	.card-img-top{
+		height: 220px;
+	}
+	.cor img{
+			height: 500px;
+			width: 100%;
+		}
+	.nav-item{
+		width: 180px;
+		font-size: 22pt;
+	}
+	.navbar-nav{
+		width: 100%;
+
+		text-align: center;
+	}
+	.navbar{
+		width: 100%;
+		height: 100px;
+	}
+	.our{
+		margin-top: 20px;
+		width: 100%;
+		/*height: 100px;*/
+		text-align: center;
+		color: green;
+		font-family: "Poppins", Sans-serif;
+	}
+	.cards{
+		margin-top: 40px;
+		height: 460px;
+		text-align: center;
+
+	}
+		.cardss{
+
+		height: 460px;
+		text-align: center;
+
+	}
+	.cards ul li{
+		display: inline-block;
+		margin: 30px;
+	}
+	.crd{
+
+		/*border: 2p?x solid black;*/
+		height:360px;
+	}
+
+
+	.card-img-tops{
+		width: 285px;
+		height: 260px;
+	}
+	.card-title{
+		font-size: 18pt;
+		color:#333333;
+	}
+	.cc{
+		width: 100%;
+		height: 450px;
+	}
+	.payment{
+		width: 100%;
+		height: 350px;
+	}
+
+	.payment h1{
+		margin-top: 40px;
+		font-family: "Poppins", Sans-serif;
+		text-align: center;
+		font-size: 26pt;
+		color:green;
+	}
+	.payment ul{
+		margin-left: 80px;
+		margin-top: 50px;
+		height: 200px;
+	}
+	.payment ul li{
+		margin: 20px;
+		display: inline-block;
+	}
+	.spa{
+		margin-left: 20px;
+		font-size: 16pt;
+	}
+	.hh:hover{
+
+		color: green;
+	}
+	.h:hover{
+
+		color: green;
+	}
+	.hhh:hover{
+
+		color: green;
+	}
+
+	.con{
+		color: green;
+		width: 100%;
+		text-align: center;
+		font-family: "Poppins", Sans-serif;
+	}
+	.co{
+		width: 100%;
+		height: 400px;
+
+	}
+	.co ul li{
+		display: inline-block;
+	}
+
+	.v ul li img{
+		display: inline-block;
+	}
+	.f{
+		margin-left: 100px;
+		margin-top: 40px;
+		width: 37%;
+		height:310;
+	}
+	.f iframe{
+		width: 100%;
+		height: 400px;}
+	.ab{
+		width: 100%;height: 400px;
+	}
+	.ca{
+		width: 100%;
+		height: 420px;
+	}
+	.sec{
+		width: 100%;
+		height: 400px;
+	}
+	.ou{
+		width: 100%;
+		height:950px;
+	}
+	.pay{
+		width: 100%;
+		height: 300px;
+	}
+	.coo{
+		width: 100%;
+		height: 550px;
+	}
+
+	#nav{
+		/*text-align: right;*/
+		height:100px;
+
+	}
+	#nav ul{
+		width: 100%;
+		text-align: right;
+	}
+	#nav ul li{
+		font-size: 18pt;
+		text-align: center;
+		line-height: 100px;
+		/*background-color: blue;*/
+		width: 130px;
+		height: 80px;
+		color: white;
+		display: inline-block;
+	}
+	#navs{
+
+		width: 100%;
+		height: 250px;
+		background-color: rgb(0,.7,.3);
+	}
+	#navs ul{
+
+		width: 100%;
+		height: 80px;;
+		text-align: center;
+	}
+	#navs ul li{
+
+
+		margin-top: 50px;
+
+		text-align:center;
+		font-size: 18pt;
+		display: inline-block;
+		color: white;
+		font-weight: 400;
+	}
+	.logo{
+		height: 40px;
+		width: 100%;
+		text-align: right;
+	margin-left: -100px;
+	}
+	.logo img{
+		margin:3px;
+		margin-top: 20px;
+		width: 30px;
+		height: 30px;
+		border-radius: 60%;
+	}
+	.last{
+		width: 100%;
+		text-align: center;
+		color: white;
+
+	}
+	</style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark" id="nav">
+	<ul>
+		<a><li>Home</li></a>
+		<a href="#ab"><li>About</li></a>
+		<a href="#ca"><li>Our Work</li></a>
+		<a href="#ou"><li>Our Service</li></a>
+		<a href="#coo"><li>Contact</li></a>
+	</ul>
+</nav>
+
+
+<!-- Courasal -->
+<div id="gallery" class="cor">
+    
+		<img id="image" src="n.jpg">
+	</div>
+	<script type="text/javascript">
+  
+		var img=["n.jpg","nn.jpg","nnn.jpg","nnnn.jpg"];
+		var i=0;
+		function fixed_slide()
+		{
+			document.getElementById('image').src=img[i];
+			i++;
+			if(i==4)
+				i=0;
+		}
+		setInterval("fixed_slide()",1800);
+	</script>
+
+
+<!-- about -->
+<section class="ab" id="ab">
+	<br><br>
+	<div class="sec">
+		<section class="aboutus" id="aboutus">
+	<div class="about">
+		<h1>ABOUT US</h1>
+		<br><br>
+		<p><span class="a">We are the passionate team of interior designers and decorators. Working in the field of interior designing from</span><br><span class="b">more than 9 years. Our main focus is on providing best quality services, in every domain of interior designing. We</span><br><span class="c">are providing probably each and every service for your home, in best possible way. That's why we say, "Its a</span><br><span class="d">complete solution of your home".</span></p>
+	</div>
+	</section>
+	</div></section>
+
+
+				<!-- card-->
+	<section class="ca" id="ca">
+	<h2 class="our">OUR WORK</h2>
+	<div class="new">
+  <li><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="r1.jpg" alt="Card image cap">
+  <div class="card-body">
+
+    <a href="#" class="btn btn-primary">View Work</a>
+  </div>
+</div></li>
+
+
+  <li><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="r3.jpg" alt="Card image cap">
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">View Work</a>
+  </div>
+</div></li>
+
+
+  <li><div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="r2.jpg" alt="Card image cap">
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">View Work</a>
+  </div>
+</div></li>
+
+</div>
+
+</div></section>
+
+
+<!-- Our Service -->
+<section class="ou" id="ou">
+<h2 class="our">OUR SERVICES</h2>
+<div class="cards">
+	<ul>
+		<li><div class="crd" style="width: 18rem;">
+  <img class="card-img-tops" src="elc.jpg" alt="Card image cap">
+            <form>
+  <div class="card-body">
+    <h5 class="card-title">ELECTRICAL</h5>
+      <input type="submit" class="btn btn-primary" value="View Work">
+  </div></form>
+</div></li>
+
+
+
+		<li><div class="crd" style="width: 18rem;">
+  <img class="card-img-tops" src="pop.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">POP/FALSE CELLING</h5>
+    <input type="submit" class="btn btn-primary" value="View Work">
+  </div>
+</div></li>
+
+
+
+		<li><div class="crd" style="width: 18rem;">
+  <img class="card-img-tops" src="wood.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">WOODEN FURNITURE</h5>
+      <form >
+          <input type="submit" class="btn btn-primary" value="View Work"></form>
+  </div>
+</div></li>
+	</ul>
+
+</div>
+<div class="cc">
+<div class="cards">
+	<ul>
+		<li><div class="crd" style="width: 18rem;">
+  <img class="card-img-tops" src="kit.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">KITCHEN</h5>
+    <form>
+          <input type="submit" class="btn btn-primary" value="View Work"></form>
+  </div>
+</div></li>
+
+
+
+		<li><div class="crd" style="width: 18rem;">
+  <img class="card-img-tops" src="paint.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">PAINT AND TEXTURE</h5>
+    <form method="get" >
+          <input type="submit" class="btn btn-primary" value="View Work"></form>
+  </div>
+</div></li>
+
+
+
+		<li><div class="crd" style="width: 18rem;">
+  <img class="card-img-tops" src="wall.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">WALLPAPER</h5>
+<form>
+          <input type="submit" class="btn btn-primary" value="View Work"></form>
+  </div>
+</div></li>
+	</ul>
+
+</div></div></section>
+
+
+<!-- ----------------------------   Payment Schemw  		   ------------------------------------>
+<br><br><br><br><br><section class="pay">
+<div class="payment">
+	<h1> PAYMENT SCHEME</h1>
+	<ul>
+		<li class="h"><img src="image/iconn.png" style="width: 60px; height: 60px;"><span class="spa" >  ADVANCE PAYMENT(40%)</span></li>
+		<li class="hh"><img style="width: 60px; height: 60px;" src="ic.png"><span class="spa ">  MIDDLE OF WORK(30%)</span></li>
+		<li class="hhh"><img src="icc.png" style="width: 60px; height: 60px;"><span class="spa">  AFTER COMPLETION(30%)</span></li>
+	</ul>
+</div></section>
+
+
+
+<!-- --------------------  CONTACT US   ---------------- -->
+	<section class="coo" id="coo"><div class="con">
+	<h2>CONTACT US</h2></div>
+
+<div class="co">
+    <div class="f">
+        <iframe src="https://goo.gl/maps/XKC8zPF9Dd82" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+<div style="margin-left:50%;
+margin-top:-32%;"><div style="margin:30px;">
+<img style="width: 50px; height: 50px;" src="ph.png">
+<span style="font-size: 22pt; margin-left: 30px;font-family: "Poppins", Sans-serif;">Call Us<br><span style="font-size: 16pt;
+margin-left: 100px;font-family: "Poppins", Sans-serif;">RAJESH SHARMA : 9425066646</span><br></span></div>
+
+
+  <div  style="margin:30px;">
+  	<img style="width: 50px; height: 50px;" src="a.png"><span style="font-size: 22pt; margin-left: 30px;font-family: "Poppins", Sans-serif;">Mail Us<br><span style="font-size: 16pt; margin-left: 100px;font-family: "Poppins", Sans-serif;">Rajeshsharma99@gmail.com</span><br></span></div>
+
+    <div style="margin:30px;"x><img style="width: 50px; height: 50px;" src="fo.png"><span style="font-size: 20pt; margin-left: 30px;font-family: "Poppins",Sans-serif;">FOLLOW US<br><form action="https://www.facebook.com/profile.php?id=100002259807237&ref=br_rs"><input class="btn btn-primary" style="margin-left: 70px;" type="submit" value="Click Here"></form></span></div> </div></div></div></section>
+
+
+
+
+
+{% endblock body %}
+<!----------- Footer ------------->
+<divclass="foot">
+<nav  id="navs">
+<div>
+	<ul>
+		<a href=""><li style="width: 230px;">Privacy & Policy</li></a>
+		<a href=""><li style="width: 250px;">Terms& Condition</li></a>
+		<a href=""><li>Portfilo</li></a>
+		<a href=""><li style="width: 190px;">Our Team</li></a>
+		<a href=""><li style="width: 120px;">About</li></a>
+		<a href=""><li style="width: 120px;">Contact</li></a>
+	</ul>
+</div>
+<div class="logo">
+	<img src="facebook.png">
+	<img src="twitter.jpg">
+	<img src="gmail.png">
+
+</div>
+<div class="last">
+	<p>Made With <img style="width: 70px; height: 30px;" src={% static 'image/h.png' %}> By Ashish Jangid</p>
+</div>
+</nav>
+</div>
+</body>
+</html>
